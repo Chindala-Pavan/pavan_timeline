@@ -2,7 +2,7 @@ Language: [English](README.md)
 
 # PavanTimeline
 [![Pub](https://img.shields.io/pub/v/pavan_timeline.svg?style=flat-square)](https://pub.dartlang.org/packages/pavan_timeline)
-[![support](https://img.shields.io/badge/platform-flutter%7Cflutter%20%7Cdart%20vm-ff69b4.svg?style=flat-square)](https://github.com/Chindala-Pavan/pavan_timeline)
+[![support](https://img.shields.io/badge/platform-flutter%7Cflutter-android%20%7Cdart%20vm-ff69b4.svg?style=flat-square)](https://github.com/Chindala-Pavan/pavan_timeline)
 # TimelineTile
 A package to help build process timeline in vertical.
 
