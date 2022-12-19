@@ -5,12 +5,6 @@ import 'package:flutter/material.dart';
 import 'package:pavan_timeline/widgets/widgets.dart';
 import 'package:timeline_tile/timeline_tile.dart';
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
-
 class PavanTimeline extends StatefulWidget {
   PavanTimeline({Key? key, required this.started, required this.ended, required this.reached, required this.children}) : super(key: key);
   final bool started;
@@ -33,12 +27,15 @@ class _PavanTimelineState extends State<PavanTimeline> {
         'child': children[i]
       });
     }
-    final Map<String, dynamic> dummy_data = {
+    Map<String, dynamic> dummy_data = {
       'started': true,
       'ended': false,
       'reached': 2,
       'data': stop,
     };
+    if (dummy_data['reached'] > children.length) {
+      dummy_data['reached'] = 0;
+    }
     for (var i = 0; i < dummy_data['data'].length; i++) {
       print("dummy_data['data'].length ${dummy_data['data'].length}");
       if (stop[i]['id'] == 0) {
