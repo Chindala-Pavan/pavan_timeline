@@ -25,12 +25,14 @@ start using the package.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
+TODO: PavanTimeLine gives ability trace  timeline for a list of widgets.
 to `/example` folder.
 
-```dart
-const like = 'sample';
-```
+[//]: # (```dart)
+
+[//]: # (const like = 'sample';)
+
+[//]: # (```)
 
 ## Additional information
 
