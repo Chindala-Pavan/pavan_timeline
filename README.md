@@ -71,8 +71,9 @@ Some use cases:
 [//]: # (        </tr>)
 				<tr>
             <td style="text-align: center">
-                <img src="https://raw.githubusercontent.com/JHBitencourt/timeline_tile/master/screenshots/gifs/horizontal_timeline.gif" width="200"/>
-      </br><b>Horizontal Timelines</b>
+
+[//]: # (                <img src="https://raw.githubusercontent.com/JHBitencourt/timeline_tile/master/screenshots/gifs/horizontal_timeline.gif" width="200"/>)
+      </br><b>Vertical Timelines</b>
             </td>
         </tr>
     </table>
