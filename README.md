@@ -108,17 +108,10 @@ children: []
 )
 ```
 
-![Horizontal Simple Timeline](https://raw.githubusercontent.com/JHBitencourt/timeline_tile/master/screenshots/horizontal_simple_timeline.png)
 
-There are 4 types of alignment.
 
-- `TimelineAlign.start`
-- `TimelineAlign.end`
-- `TimelineAlign.center`
-- `TimelineAlign.manual`
-
-The `start` and `end` alignment allows a child in their opposite sides. On the other hand, both `center` and `manual` allows children on both sides. For example, one tile with alignment to the center:
-
+[//]: # (The `start` and `end` alignment allows a child in their opposite sides. On the other hand, both `center` and `manual` allows children on both sides. For example, one tile with alignment to the center:)
+##Sample
 ```dart
 PavanTimeline(
       started: true,
@@ -134,42 +127,5 @@ PavanTimeline(
   );
 ```
 
-When providing children to the `vertical` tile, the height will be as minimum as possible, so you can control it with a height constraint (at least minHeight). This way the tile knows how to size it properly.
 
-![Centered Tile](https://raw.githubusercontent.com/JHBitencourt/timeline_tile/master/screenshots/centered_tile_with_children.png)
-
-If the `axis` is `horizontal`, the things are the opposite. The width will be as minimum as possible, so you can control it with a width constraint (at least minWidth). This way the tile knows how to size it properly.
-
-```dart
-TimelineTile(
-  axis: TimelineAxis.horizontal,
-  alignment: TimelineAlign.center,
-  endChild: Container(
-    constraints: const BoxConstraints(
-      minWidth: 120,
-    ),
-    color: Colors.lightGreenAccent,
-  ),
-  startChild: Container(
-    color: Colors.amberAccent,
-  ),
-);
-```
-
-![Horizontal Centered Tile](https://raw.githubusercontent.com/JHBitencourt/timeline_tile/master/screenshots/horizontal_centered_tile_with_children.png)
-
-
-### Start to make a timeline
-
-You can finally start to combine some tiles to make a Timeline. The flag `hasIndicator` can control whether an indicator should or shouldn't be rendered.
-
-![Timeline](https://raw.githubusercontent.com/JHBitencourt/timeline_tile/master/screenshots/start_to_make_timeline.png)
-
-![Horizontal timeline](https://raw.githubusercontent.com/JHBitencourt/timeline_tile/master/screenshots/horizontal_start_to_make_timeline.png)
-
-See the implementation [here](https://github.com/JHBitencourt/timeline_tile/blob/master/example/lib/src/example/example_5.dart)
-
-
-
-
-See the implementation [here](https://github.com/JHBitencourt/timeline_tile/blob/master/example/lib/src/example/example_10.dart)
+See the implementation [here](https://github.com/Chindala-Pavan/pavan_timeline/blob/master/lib/example/main.dart)
