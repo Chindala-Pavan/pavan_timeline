@@ -1,7 +1,7 @@
 name: pavan_timeline
-description: A new Flutter package project.
+description: PavanTimeLine gives ability trace  timeline for a list of widgets.
 version: 0.0.1
-homepage:
+homepage: https://github.com/Chindala-Pavan/pavan_timeline
 
 environment:
   sdk: '>=2.18.4 <3.0.0'
