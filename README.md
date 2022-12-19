@@ -100,7 +100,12 @@ Which will build a  tile with a `vertical` axis, that aligns to the start, with 
 The axis can be switched to render an `horizontal` tile, aligned to the start, with a default `width` of 100:
 
 ```dart
-TimelineTile(axis: TimelineAxis.horizontal)
+PavanTimeline(
+started: true,
+ended: false,
+reached: 2,
+children: []
+)
 ```
 
 ![Horizontal Simple Timeline](https://raw.githubusercontent.com/JHBitencourt/timeline_tile/master/screenshots/horizontal_simple_timeline.png)
